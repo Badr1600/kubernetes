@@ -8,8 +8,8 @@ spec:
     server: https://kubernetes.default.svc 
   project: default 
   source: 
-    path: apps/postgres
-    repoURL: https://github.com/redhat-developer-demos/openshift-gitops-examples
+    path: gitops/apps/postgres
+    repoURL: https://github.com/Badr1600/kubernetes
     targetRevision: minikube
   syncPolicy: 
     automated:
